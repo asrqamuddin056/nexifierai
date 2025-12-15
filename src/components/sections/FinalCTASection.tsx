@@ -1,0 +1,38 @@
+import { Button } from '@/components/ui/button';
+import { MessageCircle } from 'lucide-react';
+import { AnimatedSection } from '@/components/AnimatedSection';
+
+const WHATSAPP_NUMBER = '1234567890'; // Placeholder - replace with actual number
+const WHATSAPP_MESSAGE = 'SYSTEM';
+
+export const FinalCTASection = () => {
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+
+  return (
+    <section className="py-32 px-6">
+      <div className="container max-w-3xl text-center">
+        <AnimatedSection>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
+            If you want systems that run your business, DM 'SYSTEM'.
+          </h2>
+          <p className="text-muted-foreground mb-10 max-w-xl mx-auto">
+            Start a conversation. No calls. No pressure. Just clarity.
+          </p>
+        </AnimatedSection>
+
+        <AnimatedSection delay={150}>
+          <Button
+            asChild
+            size="lg"
+            className="hover-lift hover-glow text-base px-10 py-6"
+          >
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+              <MessageCircle className="mr-2 h-5 w-5" />
+              DM 'SYSTEM'
+            </a>
+          </Button>
+        </AnimatedSection>
+      </div>
+    </section>
+  );
+};
