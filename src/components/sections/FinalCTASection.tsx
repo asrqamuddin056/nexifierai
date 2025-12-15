@@ -12,12 +12,9 @@ export const FinalCTASection = () => {
     <section className="py-32 px-6">
       <div className="container max-w-3xl text-center">
         <AnimatedSection>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
-            If you want systems that run your business, DM 'SYSTEM'.
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-10">
+            If you're serious about leverage, DM 'SYSTEM'.
           </h2>
-          <p className="text-muted-foreground mb-10 max-w-xl mx-auto">
-            Start a conversation. No calls. No pressure. Just clarity.
-          </p>
         </AnimatedSection>
 
         <AnimatedSection delay={150}>

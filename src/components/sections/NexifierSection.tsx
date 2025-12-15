@@ -20,8 +20,8 @@ export const NexifierSection = () => {
               Nexifier — Growth Systems Division
             </h2>
             <p className="text-muted-foreground mb-10 leading-relaxed">
-              Nexifier is Nex AI's dedicated growth division. It focuses exclusively on acquiring attention, 
-              building distribution, and driving funnel-based growth. All growth systems are powered and 
+              Nexifier is the growth systems division inside Nex AI. It focuses exclusively on acquiring attention, 
+              building distribution, and driving funnel-based growth. All systems are powered and 
               automated by Nex AI's core infrastructure.
             </p>
           </div>

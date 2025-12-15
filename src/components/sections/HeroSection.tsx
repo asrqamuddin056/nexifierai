@@ -22,8 +22,9 @@ export const HeroSection = () => {
         </AnimatedSection>
 
         <AnimatedSection delay={150}>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-            AI agents, workflows, and revenue pipelines for founders who want leverage.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
+            If growth slows down when you step away, automation is missing. 
+            If operations still depend on daily manual effort, the systems are broken.
           </p>
         </AnimatedSection>
 

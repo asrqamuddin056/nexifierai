@@ -31,8 +31,11 @@ export const ProofSection = () => {
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
             Proof Through Capability
           </h2>
-          <p className="text-muted-foreground text-center max-w-xl mx-auto mb-16">
+          <p className="text-muted-foreground text-center max-w-xl mx-auto mb-4">
             We don't show testimonials. We show what the systems actually deliver.
+          </p>
+          <p className="text-xs text-foreground/50 text-center max-w-xl mx-auto mb-16">
+            Results shown reflect typical outcomes from deployed systems, not guarantees.
           </p>
         </AnimatedSection>
 

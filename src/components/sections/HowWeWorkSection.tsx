@@ -5,20 +5,20 @@ const steps = [
   {
     number: '01',
     icon: Search,
-    title: 'Identify Bottlenecks',
-    description: 'We find where manual work is slowing you down.',
+    title: 'Find the Bottleneck',
+    description: 'Pinpoint where manual work is costing you time and money.',
   },
   {
     number: '02',
     icon: Hammer,
-    title: 'Build the System',
-    description: 'We design and deploy automated infrastructure.',
+    title: 'Design the System',
+    description: 'Build infrastructure that handles the work automatically.',
   },
   {
     number: '03',
     icon: RotateCcw,
-    title: 'Automate & Optimize',
-    description: 'We refine until it runs without you.',
+    title: 'Remove the Founder',
+    description: 'Refine until it runs without you in the loop.',
   },
 ];
 
