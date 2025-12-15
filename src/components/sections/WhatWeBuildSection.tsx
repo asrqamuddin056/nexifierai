@@ -7,16 +7,19 @@ const pillars = [
     icon: Bot,
     title: 'Automation Systems',
     description: 'AI agents, CRM automation, WhatsApp flows, and internal workflow orchestration.',
+    outcome: 'Removes repetitive manual work across sales, support, and operations.',
   },
   {
     icon: DollarSign,
     title: 'Revenue Systems',
     description: 'Funnels, lead capture infrastructure, and end-to-end sales automation.',
+    outcome: 'Converts interest into predictable revenue without constant follow-ups.',
   },
   {
     icon: TrendingUp,
     title: 'Growth Systems',
     description: 'Content-to-lead-to-sale pipelines, distribution strategy, and funnel optimization.',
+    outcome: 'Turns attention into revenue, not vanity metrics.',
   },
 ];
 
@@ -46,8 +49,11 @@ export const WhatWeBuildSection = () => {
                   <pillar.icon className="h-6 w-6 text-foreground" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">{pillar.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
+                <p className="text-muted-foreground text-sm leading-relaxed mb-3">
                   {pillar.description}
+                </p>
+                <p className="text-xs text-foreground/70 font-medium">
+                  {pillar.outcome}
                 </p>
               </div>
             </AnimatedSection>

@@ -37,8 +37,11 @@ export const SystemsShowcaseSection = () => {
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
             Systems We Deploy
           </h2>
-          <p className="text-muted-foreground text-center max-w-xl mx-auto mb-16">
+          <p className="text-muted-foreground text-center max-w-xl mx-auto mb-4">
             Each system is built to remove specific manual work from your operation.
+          </p>
+          <p className="text-sm text-foreground/60 text-center max-w-xl mx-auto mb-16">
+            Most founders need at least one of these systems. Many need all.
           </p>
         </AnimatedSection>
 

@@ -2,10 +2,10 @@ import { X } from 'lucide-react';
 import { AnimatedSection } from '@/components/AnimatedSection';
 
 const exclusions = [
-  'People who want "just marketing"',
-  'Businesses afraid of automation',
-  'Low-budget experimenters',
   'Anyone looking for quick hacks',
+  'Low-budget experimenters',
+  'Businesses afraid of automation',
+  'People who want "just marketing"',
 ];
 
 export const NotForSection = () => {
