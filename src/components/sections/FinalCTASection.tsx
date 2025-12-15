@@ -6,7 +6,7 @@ const WHATSAPP_NUMBER = '8143710924'; // Placeholder - replace with actual numbe
 const WHATSAPP_MESSAGE = 'SYSTEM';
 
 export const FinalCTASection = () => {
-  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+  const whatsappUrl = `https://wa.me/${8143710924}?text=${encodeURIComponent(SYSTEM)}`;
 
   return (
     <section className="py-32 px-6">
