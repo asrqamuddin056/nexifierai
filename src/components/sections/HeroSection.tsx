@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { MessageCircle, ArrowDown } from 'lucide-react';
 import { AnimatedSection } from '@/components/AnimatedSection';
 
-const WHATSAPP_NUMBER = '1234567890'; // Placeholder - replace with actual number
+const WHATSAPP_NUMBER = '8143710924';
 const WHATSAPP_MESSAGE = 'SYSTEM';
 
 export const HeroSection = () => {
