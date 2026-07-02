@@ -22,7 +22,9 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/support" element={<Support />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/termsofservice" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/privacypolicy" element={<Privacy />} />
           <Route path="/cancellation" element={<Cancellation />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
@@ -33,3 +35,4 @@ const App = () => (
 );
 
 export default App;
+

@@ -14,10 +14,10 @@ export const Footer = () => {
           <Link to="/support" className="hover:text-foreground transition-colors">
             Support
           </Link>
-          <Link to="/terms" className="hover:text-foreground transition-colors">
+          <Link to="/termsofservice" className="hover:text-foreground transition-colors">
             Terms
           </Link>
-          <Link to="/privacy" className="hover:text-foreground transition-colors">
+          <Link to="/privacypolicy" className="hover:text-foreground transition-colors">
             Privacy
           </Link>
           <Link to="/cancellation" className="hover:text-foreground transition-colors">
@@ -28,3 +28,4 @@ export const Footer = () => {
     </footer>
   );
 };
+
